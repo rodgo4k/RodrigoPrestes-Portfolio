@@ -1,0 +1,29 @@
+#services {
+  overflow: hidden;
+}
+
+#services .services__group {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* Responsiveness */
+@media (max-width: 900px) {
+  #services .services__group {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  #services .services__group {
+    grid-template-columns: 100%;
+  }
+
+  .service__card:nth-child(2) {
+    margin-top: 10px;
+  }
+
+  .service__card:nth-child(3) {
+    margin-top: 10px;
+  }
+}

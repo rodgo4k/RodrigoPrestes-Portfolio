@@ -1,0 +1,68 @@
+#header {
+  overflow: hidden;
+  position: relative;
+}
+
+#header .breath__circle {
+  position: absolute;
+  right: 0;
+  z-index: 1;
+}
+
+#header .grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  position: relative;
+  gap: 1rem;
+  z-index: 2;
+}
+
+#header .grid.upper {
+  grid-template-columns: auto 400px;
+}
+
+#header .description {
+  margin-bottom: 10px;
+}
+
+#header .social.handles.container {
+  margin-top: 10px;
+}
+
+#header .profile__photo {
+  object-fit: contain;
+}
+
+#header .rotating__image {
+  animation: rotate 50s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  #header .grid,
+  #header .grid.upper {
+    grid-template-columns: 100%;
+  }
+
+  #header .grid.upper .column:first-child {
+    height: 200px;
+  }
+
+  #header .description {
+    text-align: center;
+  }
+
+  #header .social.handles.container {
+    justify-content: center;
+  }
+}
