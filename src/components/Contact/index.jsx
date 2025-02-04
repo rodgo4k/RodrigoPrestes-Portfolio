@@ -14,7 +14,7 @@ const Contact = () => {
         <div className="contact__group">
           <div>
             <h3 className="title">
-              Let's talk on your <span className="shine">greate project</span>{" "}
+              Let's talk on your <span className="shine">new project</span>{" "}
               together
             </h3>
             <div className="flex contact__options">
