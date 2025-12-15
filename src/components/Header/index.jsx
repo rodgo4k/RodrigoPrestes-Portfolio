@@ -11,9 +11,10 @@ const code = `const developer = {
               lastName: "Prestes",
               aka: "rodgo4k",
               skills: repeat () => {
-                //react();
-                //react_native();
-                //node();
+                //product_design();
+                //web_development();
+                //mobile_development();
+                //fullstack();
                 //repeat();
                 }
               }`;
@@ -33,7 +34,7 @@ const Header = () => {
         </div>
         <div className="card grid lower">
           <CodeBlock language={"javascript"} code={code} />
-          <div>
+          <div className="center__content">
             <p className="text__muted description">
               I dissect intricate user experience challenges to engineer
               integrity-focused solutions that resonate with billions of users.

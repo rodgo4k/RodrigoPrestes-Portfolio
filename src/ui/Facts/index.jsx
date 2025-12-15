@@ -10,7 +10,7 @@ const Facts = () => {
 
   useEffect(() => {
     const timeoutId = setTimeout(() => {
-      setExperience(3);
+      setExperience(4);
       setProjects(150);
       setClients(1.5);
     }, 2000);

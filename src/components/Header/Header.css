@@ -29,6 +29,14 @@
   margin-top: 10px;
 }
 
+.center__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
 #header .profile__photo {
   object-fit: contain;
 }
