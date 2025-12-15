@@ -244,7 +244,7 @@ export const skills = [
       },
       {
         skill: "Tailwind",
-        level: "Intermediate",
+        level: "Experienced",
         logo: tailwind,
       },
       {
@@ -259,7 +259,7 @@ export const skills = [
     data: [
       {
         skill: "Figma",
-        level: "Intermediate",
+        level: "Experienced",
         logo: figma,
       },
       {
