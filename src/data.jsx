@@ -82,6 +82,10 @@ export const projects = [
     demoLink: "https://github.com/rodgo4k",
     stacks: [
       {
+        name: "Figma",
+        logo: figma,
+      },
+      {
         name: "XD",
         logo: xd,
       },
@@ -98,6 +102,10 @@ export const projects = [
       stunning design tailored to your brand`,
     demoLink: "https://github.com/rodgo4k",
     stacks: [
+      {
+        name: "Figma",
+        logo: figma,
+      },
       {
         name: "ReactJs",
         logo: react,
@@ -154,8 +162,8 @@ export const projects = [
         logo: reactnative,
       },
       {
-        name: "XD",
-        logo: xd,
+        name: "Figma",
+        logo: figma,
       },
       {
         name: "CSS",
